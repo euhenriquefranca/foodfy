@@ -17,7 +17,7 @@ body::after {
   height: 366px;
   margin: 0 230px 0 230px;
   border-radius: 30px;
-  background-image: url(/assets/chef.png);
+  background-image: url(/public/assets/chef.png);
   background-repeat: no-repeat;
   background-position: right 66px bottom;
   
@@ -76,4 +76,3 @@ h1 {
   width: 305px;
    
 }
-.img-chef
