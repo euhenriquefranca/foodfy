@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #fbdfdb;
+  max-width: 940px;
+  min-height: 366px;
+}
+.jumbotron h2 {
+  margin: 117px 0px 0px 60px;
+  font-size: 32px;
+  width: 305px;
+  height: 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 18px;
+  margin: 10px 0 0 60px;
+  width: 316px;
+  height: 84px;
+}
+
+.media img {
+  margin-top: 66px;
+  margin-right: 100px;
+}
+.card img {
+  border-radius: 15px;
+  max-width: 300px;
+  max-height: 140px;
+}
+div .card {
+  margin: 20px;
+  max-width: 300px;
+}
+div .card-body {
+  width: 300px;
+  padding-left: 0%;
+}
+div .card-body h5 {
+  font-size: 18px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  width: 156px;
+  height: 21px;
+  margin: 0;
+}
+
+div .card-body p {
+  margin-bottom: 5px;
+}

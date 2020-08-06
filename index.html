@@ -1,22 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+
   <title>Foodfy</title>
 </head>
-<header>
-  <p>Foodfy</p>
-  <a href="sobre.html">Sobre</a>
-  <a href="receitas.html">Receitas</a>
-</header>
-  <body>
-  
-    <div class="banner-text">
-      <h1>As melhores receitas</h1>
-      <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Foodfy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Receitas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid mx-auto d-block mt-2">
+      <div class="container media">
+        <div class="media-body">
+          <h2>As melhores receitas</h2>
+          <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.
+          </p>
+        </div>
+        <img class="float-right" src="/assets/chef.png" alt="">
+      </div>
     </div>
-  </body>
+
+    <section class="container ">
+      <div class="card-deck justify-content-center">
+        <div class="card border-0">
+          <img class="card-img-top" src="/assets/burger.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Triplo bacon burger</h5>
+            <p class="card-text"><small class="text-muted">por Jorge Relato</small></p>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img class="card-img-top" src="/assets/pizza.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Pizza 4 estações</h5>
+            <p class="card-text"><small class="text-muted">por Fabiana Melo</small></p>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img class="card-img-top" src="/assets/espaguete.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Espaguete ao alho</h5>
+            <p class="card-text"><small class="text-muted">por Julia Kinoto</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck justify-content-center">
+        <div class="card border-0">
+          <img class="card-img-top" src="/assets/lasanha.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Lasanha mac n' cheese</h5>
+            <p class="card-text mt-4"><small class="text-muted">por Juliano Vieira</small></p>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img class="card-img-top" src="/assets/doce.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Docinhos pão-do-céu</h5>
+            <p class="card-text mt-4"><small class="text-muted">por Ricardo Golvea</small></p>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img class="card-img-top" src="/assets/espaguete.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Asinhas de frango ao barbecue</h5>
+            <p class="card-text mt-4"><small class="text-muted">por Vania Steroski</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/popper.js/dist/popper.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
 </html>
