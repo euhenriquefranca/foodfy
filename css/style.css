@@ -28,7 +28,7 @@
 
 .media img {
   margin-top: 66px;
-  margin-right: 100px;
+  padding-right: 100px;
 }
 .card img {
   border-radius: 15px;
@@ -36,7 +36,8 @@
   max-height: 140px;
 }
 div .card {
-  margin: 20px;
+  margin: 0;
+  padding: 0;
   max-width: 300px;
 }
 div .card-body {
@@ -47,11 +48,12 @@ div .card-body h5 {
   font-size: 18px;
   text-align: left;
   font-family: "Roboto", sans-serif;
-  width: 156px;
-  height: 21px;
-  margin: 0;
 }
 
 div .card-body p {
   margin-bottom: 5px;
+}
+
+.card-deck{
+  width: 940px;
 }
