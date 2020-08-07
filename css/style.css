@@ -32,16 +32,16 @@
 }
 .card img {
   border-radius: 15px;
-  max-width: 300px;
-  max-height: 140px;
+  /* min-width: 300px; */
+  /* max-height: 140px; */
 }
 div .card {
   margin: 0;
   padding: 0;
-  max-width: 300px;
+  /* min-width: 300px; */
 }
 div .card-body {
-  width: 300px;
+  /* width: 300px; */
   padding-left: 0%;
 }
 div .card-body h5 {
